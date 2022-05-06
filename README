@@ -1,0 +1,10 @@
+* Steps to add spring devtools:
+1) Add below dependency to pom.xml:
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+2) If working on intellij 2021 and after enable below settings:
+File-->Settings-->Advanced Settings--> Allow auto make to start even if deployed application currently running
